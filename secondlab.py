@@ -16,7 +16,7 @@ with open(Z , 'r') as file:
                 data[key]= value
             elif f == 1:
                 key = list0[0].rstrip('\n')
-                value = "Значение у этого значения не задано"
+                value = "Значение у этого ключа не задано"
                 data[key]= value                
 while flag:
     try:
