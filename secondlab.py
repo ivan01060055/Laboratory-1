@@ -4,7 +4,7 @@ Z  = r'file.txt'
 with open(Z , 'r') as file:
     for line in file:
         if line[0] != "#" and line[0] !=';' and line[0] != '\n':
-            list0 = line.split(' ')
+            list0 = line.split(' ', 1)
             f=len(list0)
                 
                 
